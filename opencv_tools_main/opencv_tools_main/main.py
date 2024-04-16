@@ -8,7 +8,7 @@ from image_color import show_hsv
 from image_enhancement import show_enhancement
 
 if __name__ == '__main__':
-    file_path = './images/000000507081.jpg'
+    file_path = '/opencv_tools_main/opencv_tools_main/images/000000507081.jpg'
 
     origin = cv2.imread(file_path)
     origin = origin[:, :, [2, 1, 0]]
